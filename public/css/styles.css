@@ -1,0 +1,126 @@
+/*reset*/
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, small, button, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent; 
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    color: white;
+    background: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 1) 100%), 
+    url('spaceBackground2.jpg') no-repeat top center scroll, black;
+    /*url('http://www.wired.com/images_blogs/wiredscience/2012/04/nasa_-_the_andromeda_galaxy_m31_spyral_galaxy-660x495.jpg') no-repeat top center scroll, black;*/
+    background-size: 100% 100%;
+    font-family: 'GenomeThin';  
+    font-style: normal; 
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    font-weight: bold;
+}
+.text-vertical-center {
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
+.btn {
+  height: 4.5vw;
+  padding: 5px;
+  margin: 5px;
+  width: 50%;
+  background-color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  color: white;
+  font-size: 2.5vw;
+  font-family: 'GenomeThin';  
+}
+.btn:hover {
+      background-color: #9663c6;
+      color: white;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+/* NavBar */
+    nav {
+      margin: 0px;
+      height: 4.5vw;
+      background: black;
+    }
+    .navbutton {
+      margin:0px;
+      height: 4.5vw;
+      width: 14.2857%;
+      background-color: black;
+
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      float:left;
+
+      color: white;
+      font-family: 'GenomeThin'; 
+      font-weight: normal; 
+      font-style: normal; 
+      font-size: 3vw;
+    }
+    .navbutton:hover {
+      background-color: #9663c6;
+      color: white;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+main {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.inline {
+  width: 45%;
+}
+figure > img {
+  height: 30vw;
+}
+a {
+  color: white;
+}
+figure {
+  width: 40vw;
+  margin: auto;
+  padding: 5px;
+  background: linear-gradient(rgba(0,0,0, 0) 0%,rgba(0,0,0, 0.75) 100%);
+}
+
+#clockDiv {
+  width: 400px;
+  margin: auto;
+}
+#canvasDiv {
+  width: 400px;
+  margin: auto;
+}
+canvas {
+  background-color: black;
+}

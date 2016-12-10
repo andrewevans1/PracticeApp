@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X_UA_Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Project 3</title>
+
+	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/genome" type="text/css"/>
+	<link href="/css/styles.css" rel="stylesheet">
+	<link rel="icon" href="http://www.clker.com/cliparts/z/f/q/Z/z/d/spaceship-md.png">
+</head>
+
+<body>
+	<div id="navbar">
+		<nav>
+			<a href="/"><button class="navbutton">Home</button></a>
+			<a href="/project1"><button class="navbutton">Project 1</button></a>
+			<a href="/project2"><button class="navbutton">Project 2</button></a>
+			<a href="/project3"><button class="navbutton">Project 3</button></a>
+			<a href="/project4"><button class="navbutton">Project 4</button></a>
+			<a href="/project5"><button class="navbutton">Project 5</button></a>
+			<a href="/project6"><button class="navbutton">Project 6</button></a>
+		</nav>
+	</div>
+	<header id="top" class="header">
+		<div class="text-vertical-center">
+			<h1>Project 3</h1>
+			<h3>Animated Clock</h3>
+			<h3>Current Time: <span id="time"></span></h3>
+		</div>
+	</header>
+	<main>
+		<div id="clockDiv">
+			<input type="button" value="Run Clock" class="btn inline" onclick="start()">
+			<input type="button" value="Stop Clock" class="btn inline" onclick="stop()">
+			<br/>
+			<canvas id="myCanvas" width="400" height="400"></canvas>
+			<script src="/js/clock.js"></script>
+		</div>
+	</main>
+</body>
+</html>
