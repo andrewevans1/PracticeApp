@@ -47,6 +47,7 @@ h2 {
 h3 {
   font-size: 2em;
 }
+
 .btn {
   height: 4.5vw;
   padding: 5px;
@@ -100,6 +101,11 @@ main {
 .inline {
   width: 45%;
 }
+.center {
+  display: block;
+  margin: auto;
+}
+
 figure > img {
   height: 30vw;
 }
@@ -118,9 +124,16 @@ figure {
   margin: auto;
 }
 #canvasDiv {
-  width: 400px;
+  width: 100%;
   margin: auto;
 }
 canvas {
   background-color: black;
+  margin: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.floatLeft {
+  float: left;
 }
