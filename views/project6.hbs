@@ -23,6 +23,7 @@
 		<a href="/project4"><button class="navbutton">Project 4</button></a>
 		<a href="/project5"><button class="navbutton">Project 5</button></a>
 		<a href="/project6"><button class="navbutton">Project 6</button></a>
+		<a href="/project7"><button class="navbutton">Project 7</button></a>
 	</nav>
 	<header id="top" class="header">
 		<div class="text-vertical-center">
@@ -32,7 +33,11 @@
 	</header>
 
 	<button class="center btn" onclick="startGame()">Click to Start</button>
-	
+	<div id="sliderDiv">
+		<input type="range" id="slider" min="1" max="5" value="2" 
+			onchange="updateSlider()"> 
+		<p id="sliderValue">Level 2</p>
+	</div>
 	<script src="/js/meteorGame.js"></script>
 
 </body>

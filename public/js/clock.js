@@ -17,7 +17,7 @@ function runClock(){
 	ctx.clearRect(0,0, canvas.width, canvas.height)
 
 	for (i=0; i<dates.length; i++) {
-		console.log(((dates[i]+1)/norm[i]))
+		//console.log(((dates[i]+1)/norm[i]))
 		ctx.beginPath()
 		ctx.arc(centerX, centerY, radius[i], 0-Math.PI/2, (((dates[i]+1)/norm[i])*2*Math.PI-Math.PI/2))
 		ctx.lineWidth = scale

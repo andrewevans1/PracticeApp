@@ -5,7 +5,9 @@
 	<meta http-equiv="X_UA_Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Project 2</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<title>Project 7</title>
 
 	<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/genome" type="text/css"/>
 	<link href="/css/styles.css" rel="stylesheet">
@@ -27,20 +29,14 @@
 	</div>
 	<header id="top" class="header">
 		<div class="text-vertical-center">
-			<h1>Project 2</h1>
-			<h2>Simple Canvas</h2>
+			<h1>Project 7</h1>
+			<h2>Gravity Simulator</h2>
 		</div>
 	</header>
 	<main>
-		<canvas id="myCanvas" class="floatLeft" width="400" height="400" style="border:4px solid #000000; background-color: white;"></canvas>
-		<form class="floatLeft" name="myForm">
-			<!-- <input name="radius" type="text" class="btn" placeholder="radius"> -->
-			<input type="button" value="make face" class="btn" onclick="circle(), leftEye(), rightEye()">
-			<input type="button" value="mouth" class="btn" onclick="circle()">
-			<input type="button" value="left eye" class="btn" onclick="leftEye()">
-			<input type="button" value="right eye" class="btn" onclick="rightEye()">
-		</form>
-		<script src="/js/simpleCircle.js"></script>
+		<button class="center btn" onclick="simple()">Start Simple</button>
+	
+		<script src="js/gravitySimulator.js"></script>
 	</main>
 </body>
 </html>
