@@ -36,6 +36,10 @@ module.exports = () => {
   router.get('/project7', (req, res, next) =>{
     res.render('project7')
   })
+
+  router.get('/project8', (req, res, next) =>{
+    res.render('project8')
+  })
 /*
   router.get('/rooms', utils.isAuthenticated, (req, res, next) => {
     res.render('rooms', {
